@@ -1,0 +1,3 @@
+#!/bin/bash
+
+{a..z}; {a..z}; do [ "$i$j" != "oo" ] && echo "$i$j"; done; done
